@@ -3,7 +3,7 @@ class MicropostsController < ApplicationController
     # to add all microposts
     def index
         @microposts = Micropost.all
-        # render json: @microposts
+        render json: @microposts
     end
 
     # to show a micropost by id
