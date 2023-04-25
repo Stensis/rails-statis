@@ -6,6 +6,8 @@ ruby "2.7.4"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
+
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -50,6 +52,16 @@ gem "bootsnap", require: false
 
 # ======== Gem files i have added ===========
 gem 'active_model_serializers'
+
+gem 'bootstrap-sass'
+
+gem 'sassc-rails', '~> 2.1.2'
+
+
+group :assets do
+  gem 'sassc-rails', '~> 2.1.2'
+end
+
 
 # ===========================================
 

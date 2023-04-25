@@ -1,3 +1,5 @@
+require 'test_helper'
+
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
     @base_title = "My App Name" # define @base_title here
